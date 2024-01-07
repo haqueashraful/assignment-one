@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+main {
+    margin: 0 120px;
+}
+
+/* banner section styles */
+
+.banner {
+    background: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url("/resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 30px;
+    width: 1320px;
+    height: 600px;
+    border: none;
+    border-radius: 10px;
+}
+
+.banner-content {
+    padding: 170px 340px;
+
+}
+
+.banner h4 {
+    margin-bottom: 55px;
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+
+/* 60% off section styles */
+
+.off-sec {
+    margin-top: 100px;
+}
+
+.off-sec h2 {
+    color: #F00;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+.off-sec p {
+    color: #F00;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.off-sec h5 {
+    color: #070211;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+.imgs {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+/* midnight party section styles */
+.w-m-party {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/resources/Vectorrr.png");
+    width: 1320px;
+    height: 600px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border: none;
+    border-radius: 10px;
+}
+
+.wmp-content {
+    width: 70%;
+    align-items: start;
+    padding-left: 120px;
+}
+
+.wmp-content h2 {
+    color: #FFF;
+    font-family: "Merriweather";
+    font-size: 64px;
+    font-weight: 900;
+    width: 640px;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.wmp-content p {
+    color: #ffffffcc;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 695px;
+}
+
+.wmp-content button {
+    margin-left: 30px;
+    margin-top: 48px;
+    color: #dfeedc;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 700;
+    background: linear-gradient(270deg, rgba(201, 222, 125) 0%, rgba(84, 163, 192, 0) 100%);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.wmp-content button:hover {
+    background: linear-gradient(90deg, rgba(201, 222, 125) 0%, rgba(84, 163, 192, 0) 100%);
+}
+
+.wmp-img {
+    width: 30%;
+    align-items: end;
+    padding-right: 135px;
+}
+
+/* Price date time section styles */
+
+.pdt {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding: 100px 375px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.pdt span {
+    color: #F00;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.pdt h2 {
+    color: #070211;
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.pdt-button {
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    background: #F00;
+}
+
+/* comming soon section styles */
+
+.comming-soon {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.new-offer {
+    width: 395px;
+}
+
+.new-offer h6 {
+    color: #F00;
+    text-align: left;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.new-offer h2 {
+    color: #070211;
+    font-family: "Merriweather";
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.new-offer p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.ellips {
+    align-items: center;
+    padding: 20px;
+    width: 366px;
+    height: 366px;
+    border-radius: 50%;
+    border: 15px solid #F00;
+    margin: 0 115px 0 65px;
+}
+
+.new-year {
+    width: 275px;
+}
+
+.new-year h2 {
+    color: #F00;
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.new-year p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+/* holiday section styles */
+
+.holiday {
+    margin: 120px 0;
+
+}
+
+.holi-intro {
+    text-align: center;
+}
+
+.holi-intro h6 {
+    color: #070211;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.holi-intro h1 span {
+    color: #F00;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holi-intro h1 {
+    color: #070211;
+    font-family: "Merriweather";
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.holi-intro p {
+    color: #07021199;
+    padding: 0 150px;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 60px;
+}
+
+.holi-middle {
+    position: relative;
+    margin-bottom: -5px;
+}
+
+.img-container {
+    position: absolute;
+    top: 0;
+    left: 900px;
+}
+
+.img1 {
+    position: absolute;
+    top: 80px;
+    left: -160px;
+    z-index: 100;
+}
+
+.img2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+
+.holi-end {
+    background: url("/resources/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+
+/* portfolio section styles */
+
+.portfolio-content h4 {
+    color: #F00;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.portfolio-content h2 {
+    color: #070211;
+    font-family: "Merriweather";
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.portfolio-content p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: "Inter";
+    font-size: 20px;
+    width: 895px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+.img-box {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.img-box>img {
+    width: 425px;
+    height: 450px;
+    margin-top: 25px;
+    margin-right: 18px;
+}
+
+/* subscribe styles */
+
+.subscribe {
+    text-align: center;
+    padding: 80px 0;
+    width: 1320px;
+    border-radius: 16px;
+    background: #ff00000d;
+    margin-bottom: 120px;
+}
+
+.subscribe img{
+    width: 150px;
+height: 150px;
+margin-bottom: 40px;
+}
+.subscribe h2{
+    color: #070211;
+font-family: "Merriweather";
+font-size: 48px;
+font-weight: 900;
+}
+.subscribe p {
+    color: #07021199;
+width: 890px;
+margin: 0 auto;
+font-family: "Inter";
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+margin-bottom: 45px;
+}
+.sub-div{
+    width: 645px;
+    height: 70px;
+display: flex;
+margin: 0 auto;
+align-items: center;
+justify-content: center;
+
+}
+.sub-div input{
+    padding: 20px;
+    width: 445px;
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.sub-button{
+    width: 200px;
+    align-items: center;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: #F00;
+} 
+
+/* 
+margin-top: 50px;
+margin-bottom: 10px; */
