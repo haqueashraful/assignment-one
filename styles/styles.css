@@ -12,7 +12,7 @@ main {
 /* banner section styles */
 
 .banner {
-    background: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url('/resources/banner-image.png');
+    background: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url('../resources/banner-image.png');
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: 30px;
@@ -86,7 +86,7 @@ main {
 
 /* midnight party section styles */
 .w-m-party {
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/resources/vector.png");
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/vector.png");
     width: 1320px;
     height: 600px;
     margin-bottom: 120px;
@@ -332,7 +332,7 @@ main {
 }
 
 .holi-end {
-    background: url("/resources/Rectangle 2.png");
+    background: url("../resources/Rectangle\ 2.png");
     background-repeat: no-repeat;
     background-position: center bottom;
 }
