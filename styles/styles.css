@@ -4,10 +4,13 @@
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
 }
-
+body{
+    width: 1600px;
+    margin: 0 auto;
+}
 main {
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 140px;
+    margin-right: 140px;
     max-width: 1320px;
     min-width: 1320px;
     margin: 0 auto;
@@ -131,21 +134,21 @@ main {
 .wmp-content button {
     margin-left: 30px;
     margin-top: 48px;
-    color: #dfeedc;
+    color: #fff;
     text-align: center;
     font-family: "Inter";
     font-size: 20px;
     font-weight: 700;
     background: linear-gradient(270deg, rgba(201, 222, 125) 0%, rgba(84, 163, 192, 0) 100%);
     border: none;
-    border-left: 2px solid #c9de7d;
+    border-left: 2px solid #ffff;
     padding: 10px;
     border-radius: 5px;
 }
 
 .wmp-content button:hover {
     background: linear-gradient(90deg, rgba(201, 222, 125) 0%, rgba(84, 163, 192, 0) 100%);
-    border-right: 2px solid #c9de7d;
+    border-right: 2px solid #ffff;
 }
 
 .wmp-img {
@@ -201,9 +204,9 @@ main {
 }
 
 .pdt-button:hover {
-    background: linear-gradient(360deg, rgba(255, 0, 0, 0.84) 0%, rgba(255, 0, 0, 0.00) 100%);
+    background: linear-gradient(360deg, rgba(255, 0, 0, 0.9) 0%, rgba(255, 0, 0, 0.00) 100%);
     color: black;
-    border-top: 2px solid rgb(238, 0, 0);
+    border-top: 2px solid rgb(0, 0, 0);
 }
 
 /* comming soon section styles */
@@ -254,7 +257,7 @@ main {
 }
 
 .new-year {
-    width: 275px;
+    width: 285px;
 }
 
 .new-year h2 {
@@ -351,6 +354,7 @@ main {
     background-position: center bottom;
     max-width: 1320px;
     min-width: 1320px;
+    margin-top: 266px;
 }
 
 
