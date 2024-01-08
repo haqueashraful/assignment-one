@@ -6,7 +6,10 @@
 }
 
 main {
-    margin: 0 120px;
+    margin-left: 120px;
+    margin-right: 120px;
+    max-width: 1320px;
+    margin: 0 auto;
 }
 
 /* banner section styles */
@@ -314,7 +317,7 @@ main {
 .img-container {
     position: absolute;
     top: 0;
-    left: 900px;
+    left: 891px;
 }
 
 .img1 {
@@ -335,6 +338,8 @@ main {
     background: url("../resources/Rectangle 2.png");
     background-repeat: no-repeat;
     background-position: center bottom;
+    max-width: 1320px;
+    min-width: 1320px;
 }
 
 
@@ -370,13 +375,15 @@ main {
     width: 100%;
     margin: 0 auto;
     margin-bottom: 120px;
+    max-width: 1320px;
+    min-width: 1320px;
 }
 
 .img-box>img {
     width: 425px;
     height: 450px;
     margin-top: 25px;
-    margin-right: 18px;
+    margin-right: 10px;
 }
 
 /* subscribe styles */
