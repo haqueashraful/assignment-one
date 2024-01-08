@@ -5,7 +5,7 @@
     font-family: 'Merriweather', serif;
 }
 body{
-    width: 1600px;
+    width: 1580px;
     margin: 0 auto;
 }
 main {
@@ -129,6 +129,7 @@ main {
     font-weight: 400;
     line-height: 30px;
     width: 695px;
+    margin-top: 8px;
 }
 
 .wmp-content button {
@@ -245,7 +246,13 @@ main {
     font-weight: 400;
     line-height: 32px;
 }
+.new-offer span{
+    color: #F00;
 
+}
+.new-year span{
+    color: #F00;
+}
 .ellips {
     align-items: center;
     padding: 20px;
@@ -337,7 +344,7 @@ main {
 .img1 {
     position: absolute;
     top: 80px;
-    left: -160px;
+    left: -155px;
     z-index: 100;
 }
 
@@ -354,8 +361,13 @@ main {
     background-position: center bottom;
     max-width: 1320px;
     min-width: 1320px;
-    margin-top: 266px;
+    /* margin-top: 266px; */
 }
+/* .holi-end > .holi-img{
+    position: relative;
+    bottom: 50px;
+    margin-left: 100px;
+} */
 
 
 /* portfolio section styles */
