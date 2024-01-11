@@ -417,12 +417,21 @@ main {
     min-width: 1320px;
 }
 
+.img-box>img:hover{
+    transform:  scale(0.9);
+    transition: all 1s ease-in;
+    border: 3px solid #e4e873;
+    border-radius: 10%;
+}
+
 .img-box>img {
     width: 425px;
     height: 450px;
     margin-top: 25px;
     margin-right: 10px;
 }
+
+
 
 /* subscribe styles */
 
